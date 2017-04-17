@@ -41,8 +41,6 @@ NSString * const SWHttpTrafficRecorderErrorDomain           = @"RECORDER_ERROR_D
 @property(nonatomic, strong) NSDictionary *fileExtensionMapping;
 @end
 
-@interface SWRecordingProtocol : NSURLProtocol @end
-
 @implementation SWHttpTrafficRecorder
 
 + (instancetype)sharedRecorder

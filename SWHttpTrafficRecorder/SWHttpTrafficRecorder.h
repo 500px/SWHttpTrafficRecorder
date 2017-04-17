@@ -196,3 +196,6 @@ FOUNDATION_EXPORT NSString * const SWHttpTrafficRecorderErrorDomain;
 @property(nonatomic, copy) NSString*(^createFileInCustomFormatBlock)(NSURLRequest *request, NSURLResponse *response, NSData *bodyData, NSString *filePath);
 
 @end
+
+
+@interface SWRecordingProtocol : NSURLProtocol @end
